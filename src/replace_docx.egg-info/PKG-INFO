@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: replace_docx
+Version: 0.1
+Requires-Dist: docx
+Requires-Dist: Pillow
+Requires-Dist: matplotlib

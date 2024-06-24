@@ -7,6 +7,13 @@
 - Mantiene las dimensiones del gráfico al reemplazar la imagen.
 - Guarda el documento modificado con un nuevo nombre.
 
+## Uso
+Los programas pueden ser usados utilizando directamente los script de la carpeta `src` (ver `./test/prueba_reemplazo_imagen.py` como ejemplo de importación relativa) o instalando como libraria mediante
+
+```bash
+pip install -e . 
+```
+
 ## Requisitos
 
 - Python 3.x
@@ -21,7 +28,8 @@ pip install python-docx pillow matplotlib
 ## Limitaciones 
 - Las imágenes reemplazadas son ajustadas a las dimensiones de la imagen reemplazada. Utilizar `fig, ax = plt.subplots(..., figsize=(x, y))` para reemplazar la figura utilizando las mismas proporciones.
 
+
 # TODO
-- [ ] Crear librería para utilizar de forma la sustitución de imágenes.
+- [ ] Agregar librarias a un paquete único
 - [ ] Crear lista de imágenes a actualizar
 - [ ] Agregar V1x.0 al final del nuevo docx si no existe.

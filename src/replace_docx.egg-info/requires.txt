@@ -1,0 +1,3 @@
+docx
+Pillow
+matplotlib
